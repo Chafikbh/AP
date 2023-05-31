@@ -1,0 +1,1105 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    font-family: vantage;
+    src: url(../assets/Vantage.ttf);
+    font-family: emoji;
+    src: url(../assets/Emoji.otf);
+}
+
+@font-face {
+    font-family: vantage;
+    src: url(../assets/Vantage.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: emoji;
+    src: url(../assets/Emoji.otf) format('truetype');
+}
+
+
+html, body{
+    max-width:100%;
+    width: 100%;
+    height: 100%;
+    background-color: #101010;
+    background-image: url("../assets/full.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+/*header*/
+
+.grid{
+    max-width:100%;
+    text-align: center;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.emoji1{
+    max-width: 100%;
+    color: #7FF820;
+    font-family: emoji;
+    font-size: 5rem;
+    line-height:4em;
+}
+
+.titel{
+    max-width: 100%;
+    margin-top: 5%;
+    color: #7FF820;
+    font-family: vantage;
+    font-size: 10rem;
+    white-space: nowrap;
+}
+
+.border{
+    max-width:100%;
+    margin: auto;
+    border: solid 15px #85B95C;
+    border-radius: 5rem;
+    height: 90vh;
+    width: 90vw;
+    
+}
+
+
+.naam{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-family: vantage;
+    color: #99C590;
+    font-size: 2.5rem;
+    z-index: 10;
+}
+
+.adress{
+    font-family: Montserrat;
+    position: absolute;
+    top: 57.5%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: #6c8b65;
+    font-weight: bold;
+    font-size: 1rem;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+/*bottom*/
+
+
+
+
+#example-div2 p{
+    font-family: Montserrat;
+    color: white;
+}
+#example-div2 .playboy{
+    border-radius: 2rem;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+    height: 60vh;
+    width: 20vw;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#example-div2 .card{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    max-width: 15vw;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+
+
+
+.two{
+    width: 125px;
+    background-color: #2a3f1a;
+    border-radius: 1.5rem;
+    position: absolute;
+    top: 82%;
+    left: 54.5%;
+    padding: 5px 40px;
+    transform: translate(-50% , -50%);
+    border: none;
+    border: 2px solid #2a3f1a;
+    box-shadow: 0 0 10px #2a3f1a;
+}
+
+.remind{
+    align-items: center;
+    width: 125px;
+    font-size: 1.25rem;
+    background-color: #7FF820;
+    border-radius: 1.5rem;
+    position: absolute;
+    top: 82%;
+    left: 45.5%;
+    font-family: Montserrat;
+    padding: 5px 40px;
+    transform: translate(-50% , -50%);
+    border: none;
+    border: 2px solid #7FF820;
+    box-shadow: 0 0 10px #7FF820;
+    color:white;
+    font-weight:bold;
+}
+
+
+
+#example-div2 p:hover{
+    font-family: Montserrat;
+    color: rgb(0, 0, 0);
+}
+
+.remind:hover{
+    color: #101010;
+    width: 125px;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    position: absolute;
+    top: 82%;
+    left: 45.5%;
+    padding: 5px 40px;
+    transform: translate(-50% , -50%);
+    border: none;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 10px #ffffff
+}
+
+
+.big:hover{
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    position: absolute;
+    top: 85%;
+    left: 85%;
+    transform: translate(-50% , -50%);
+    padding: 5px 40px;
+    border: none;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 10px #ffffff
+}
+
+.big{
+    background-color: #7FF820;
+    border-radius: 1.5rem;
+    position: absolute;
+    top: 85%;
+    left: 85%;
+    transform: translate(-50% , -50%);
+    padding: 5px 40px;
+    border: none;
+    border: 2px solid #7FF820;
+    box-shadow: 0 0 10px #7FF820
+}
+
+
+
+#example-div2 .playboy{
+    border-radius: 2rem;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-image: url(../assets/playboy.jpg);
+    
+    width: 20vw;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#example-div2 .card{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    max-width: 15vw;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+.grid2{
+    text-align: center;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 10vw;
+    margin:auto;
+    margin-top: 335px;
+    z-index: 10;
+    margin-bottom: 5px;
+    
+}
+
+.grid_item{
+    grid-gap: 5px;
+    margin-bottom: 10px;
+    color: #99C590;
+    font-size: 1.25rem;
+    font-family: Montserrat;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.special{
+    color: #4a6b43;
+    font-size: 1.25rem;
+    font-family: Montserrat;
+    font-weight: italic;
+}
+
+
+
+@media only screen and (min-width: 1001px){
+    .titel{
+        line-height: 5rem;
+        font-size: 8rem;
+    }
+    .emoji1{
+        max-width: 100%;
+        color: #7FF820;
+        font-family: emoji;
+        font-size: 4rem;
+        line-height: 3em;
+    }
+
+    .big{
+        background-color: #7FF820;
+        border-radius: 1.5rem;
+        position: absolute;
+        top: 85%;
+        left: 80%;
+        transform: translate(-50% , -50%);
+        padding: 5px 40px;
+    }
+
+    #example-div2 .playboy{
+        border-radius: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        
+        height: 60vh;
+        width: 35vh;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    #example-div2 .card {
+        position: absolute;
+        top: 44%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        max-width: 28vw;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    .naam {
+        position: absolute;
+        top: 44%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        font-family: vantage;
+        color: #99C590;
+        font-size: 3.5rem;
+        z-index: 10;
+    }
+
+}
+
+
+@media only screen and (max-width: 2000px) {
+
+    #example-div2 .card{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+
+        max-width: 296px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    .adress {
+        font-family: Montserrat;
+        position: absolute;
+        top: 47.5%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        color: #6c8b65;
+        font-weight: bold;
+        font-size: 1.25rem;
+        z-index: 10;
+    }
+
+    .big{
+        top: 85%;
+        left: 85%;
+    }
+
+    .remind { 
+        top: 72%;
+        left: 45.5%;
+    }
+
+    .two {
+        top: 72%;
+        left: 54.5%
+    }
+
+    .remind:hover{
+        
+        top: 72%;
+        left: 45.5%;
+    }
+}
+
+
+
+@media only screen and (max-width: 1920px) {
+
+    #example-div2 .card{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+
+        max-width: 296px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    .adress {
+        font-family: Montserrat;
+        position: absolute;
+        top: 47.5%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        color: #6c8b65;
+        font-weight: bold;
+        font-size: 1.25rem;
+        z-index: 10;
+    }
+
+    .big{
+        top: 85%;
+        left: 85%;
+    }
+
+    .remind { 
+        top: 72%;
+        left: 45.5%;
+    }
+
+    .two {
+        top: 72%;
+        left: 54.5%
+    }
+
+    .remind:hover{
+        
+        top: 72%;
+        left: 45.5%;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .remind { 
+        top: 72%;
+        left: 42.5%;
+    }
+
+    .two {
+        top: 72%;
+        left: 57.5%
+    }
+
+    .remind:hover{
+        
+        top: 72%;
+        left: 42.5%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .titel{
+        line-height: 5rem;
+        font-size: 7rem;
+    }
+    .emoji1{
+        max-width: 100%;
+        color: #7FF820;
+        font-family: emoji;
+        font-size: 3rem;
+        line-height:4em;
+    }
+
+    .arrow{
+        width: 50px;
+        height: 50px;
+    }
+
+    .two{
+        width: 125px;
+        top: 72%;
+        left: 58.5%;
+        font-family: Montserrat;
+        padding: 10px 9px;
+    }
+
+    .remind{
+        width: 125px;
+        top: 72%;
+        left: 42.5%;
+        font-family: Montserrat;
+        padding: 9px 10px;
+    }
+
+    .big{
+        top: 85%;
+        left: 85%;
+    }
+    .remind:hover{
+        width: 125px;
+        top: 72%;
+        left: 40.5%;
+        padding: 9px 10px;
+    }
+    
+    
+    .big:hover{
+        top: 85%;
+        left: 85%;
+    }
+
+
+    #example-div2 .playboy{
+        border-radius: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        height: 60vh;
+        width: 35vh;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    #example-div2 .card{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+
+        max-width: 296px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    .naam{  
+        top: 45%;
+    }
+    
+
+    .adress{
+        top:  49.5%;
+    }
+
+    .grid2{
+        text-align: center;
+        font-size: 2rem;
+        width: 19vw;
+        margin: auto;
+        margin-top: 319px;
+        margin-bottom: 5px;
+    }
+
+}
+
+
+@media only screen and (max-width: 900px) {
+    .titel{
+        line-height: 5rem;
+        font-size: 7rem;
+    }
+    .emoji1{
+        max-width: 100%;
+        color: #7FF820;
+        font-family: emoji;
+        font-size: 3rem;
+        line-height:4em;
+    }
+
+    .arrow{
+        width: 50px;
+        height: 50px;
+    }
+
+    .two{
+        width: 125px;
+        top: 72%;
+        left: 58.5%;
+        font-family: Montserrat;
+        padding: 10px 9px;
+    }
+
+    .remind{
+        width: 125px;
+        top: 72%;
+        left: 41.5%;
+        font-family: Montserrat;
+        padding: 9px 10px;
+    }
+
+    .big{
+        top: 85%;
+        left: 85%;
+        transform: translate(-50% , -50%);
+        padding: 5px 40px;
+        border: 2px solid #7FF820;
+        box-shadow: 0 0 10px #7FF820
+    }
+    .remind:hover{
+        width: 125px;
+        top: 72%;
+        left: 41.5%;
+        padding: 9px 10px;
+    }
+    
+    
+    .big:hover{
+        top: 85%;
+        left: 85%;
+    }
+
+
+    #example-div2 .playboy{
+        border-radius: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        
+        height: 60vh;
+        width: 35vh;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    #example-div2 .card{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        
+        max-width: 296px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    .naam{  
+        top: 45%;
+    }
+    
+
+    .adress{
+        top:  49.5%;
+    }
+
+    .grid2{
+        text-align: center;
+        font-size: 2rem;
+        width: 21vw;
+        margin: auto;
+        margin-top: 320px;
+        margin-bottom: 5px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .titel{
+        line-height: 5rem;
+        font-size: 5rem;
+    }
+    .emoji1{
+        max-width: 100%;
+        color: #7FF820;
+        font-family: emoji;
+        font-size: 2.5rem;
+        line-height:4em;
+    }
+
+    .arrow{
+        width: 50px;
+        height: 50px;
+    }
+
+    .two{
+        width: 125px;
+        top: 72%;
+        left: 61.5%;
+        font-family: Montserrat;
+        padding: 10px 9px;
+    }
+
+    .remind{
+        width: 125px;
+        top: 72%;
+        left: 40.5%;
+        font-family: Montserrat;
+        padding: 9px 10px;
+    }
+
+    .big{
+        top: 87%;
+        left: 51%;
+    }
+    .remind:hover{
+        width: 125px;
+        top: 72%;
+        left: 40.5%;
+        padding: 9px 10px;
+    }
+    
+    
+    .big:hover{
+        top: 87%;
+        left: 51%;
+    }
+
+
+    #example-div2 .playboy{
+        border-radius: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        
+        height: 60vh;
+        width: 35vh;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    #example-div2 .card{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        
+        max-width: 296px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    .naam{  
+        top: 45%;
+    }
+    
+
+    .adress{
+        top:  49.5%;
+    }
+
+    .grid2{
+        text-align: center;
+        font-size: 2rem;
+        width: 22vw;
+        margin: auto;
+        margin-top: 343px;
+        margin-bottom: 5px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .titel{
+        line-height: 5rem;
+        font-size: 5rem;
+    }
+    .emoji1{
+        max-width: 100%;
+        color: #7FF820;
+        font-family: emoji;
+        font-size: 2.5rem;
+        line-height:4em;
+    }
+
+    .arrow{
+        width: 50px;
+        height: 50px;
+    }
+
+    .two{
+        width: 125px;
+        top: 72%;
+        left: 61.5%;
+        font-family: Montserrat;
+        padding: 10px 9px;
+    }
+
+    .remind{
+        width: 125px;
+        top: 72%;
+        left: 40.5%;
+        font-family: Montserrat;
+        padding: 9px 10px;
+    }
+
+    .big{
+        top: 87%;
+        left: 51%;
+    }
+    .remind:hover{
+        width: 125px;
+        top: 72%;
+        left: 40.5%;
+        padding: 9px 10px;
+    }
+    .big:hover{
+        top: 87%;
+        left: 51%;
+    }
+
+    #example-div2 .playboy{
+        border-radius: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        height: 60vh;
+        width: 35vh;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    #example-div2 .card{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        
+        max-width: 296px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    .naam{  
+        top: 45%;
+    }
+    
+    .adress{
+        top:  49.5%;
+    }
+
+    .grid2{
+        text-align: center;
+        font-size: 2rem;
+        width: 30vw;
+        margin: auto;
+        margin-top: 342px;
+        margin-bottom: 5px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .titel{
+        line-height: 5rem;
+        font-size: 3.5rem;
+    }
+    .emoji1{
+        max-width: 100%;
+        color: #7FF820;
+        font-family: emoji;
+        font-size: 2rem;
+        line-height:4em;
+    }
+
+    .arrow{
+        width: 50px;
+        height: 50px;
+    }
+
+    .two{
+        width: 108px;
+        top: 72%;
+        left: 64.5%;
+        font-family: Montserrat;
+        padding: 0px 9px;
+    }
+
+    .remind{
+        width: 99px;
+        top: 72%;
+        left: 35.5%;
+        font-family: Montserrat;
+        padding: 9px 10px;
+    }
+
+    .big{
+        top: 87%;
+        left: 51%;
+    }
+
+    .remind:hover{
+        width: 99px;
+        top: 72%;
+        left: 35.5%;
+        padding: 9px 10px;
+    }
+    
+    
+    .big:hover{
+        top: 87%;
+        left: 51%;
+    }
+
+    #example-div2 .playboy{
+        border-radius: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        height: 60vh;
+        width: 35vh;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    #example-div2 .card{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        max-width: 296px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    .naam{  
+        top: 45%;
+    }
+
+    .adress{
+        top: 49.5%;
+    }
+
+    .grid2{
+        text-align: center;
+        font-size: 2rem; 
+        width: 30vw;
+        margin: auto;
+        margin-top: 360px;
+        margin-bottom: 5px;
+    }
+
+    .emoji1{
+        max-width: 100%;
+        color: #7FF820;
+        font-family: emoji;
+        font-size: 2rem;
+        line-height:4em;
+    }
+
+}
+
+
+@media only screen and (max-width: 414px){
+
+    .two{
+        width: 108px;
+        top: 72%;
+        left: 64.5%;
+        font-family: Montserrat;
+        padding: 0px 9px;
+    }
+
+    .remind{
+        width: 99px;
+        top: 72%;
+        left: 35.5%;
+        font-family: Montserrat;
+        padding: 9px 10px;
+    }
+
+    .big{
+        top: 87%;
+        left: 51%;
+    }
+
+    .remind:hover{
+        width: 99px;
+        top: 72%;
+        left: 35.5%;
+        padding: 9px 10px;
+    }
+    
+    
+    .big:hover{
+        top: 87%;
+        left: 51%;
+    }
+
+
+    .titel{
+        line-height: 5rem;
+        font-size: 2.5rem;
+    }
+
+    #example-div2 .playboy{
+        border-radius: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+       
+        height: 60vh;
+        width: 35vh;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    #example-div2 .card{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        
+        max-width: 296px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    .naam{  
+        top: 45%;
+    }
+
+    .adress{
+        top:  49.5%;
+    }
+
+    .grid2{
+        text-align: center;
+        font-size: 2rem;
+        width: 30vw;
+        margin: auto;
+        margin-top: 329px;
+        margin-bottom: 5px;
+    }
+
+    .emoji1{
+        max-width: 100%;
+        color: #7FF820;
+        font-family: emoji;
+        font-size: 2rem;
+        line-height:4em;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 375px){
+
+    .titel{
+        line-height: 5rem;
+        font-size: 2.5rem;
+    }
+
+    #example-div2 .playboy{
+        border-radius: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        
+        height: 60vh;
+        width: 35vh;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    #example-div2 .card{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+      
+        max-width: 53vw;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    .naam{  
+        top: 45%;
+    }
+
+    .adress{
+        top:  49.5%;
+    }
+
+    .grid2{
+        text-align: center;
+        font-size: 2rem;
+        width: 30vw;
+        margin: auto;
+        margin-top: 236px;
+        margin-bottom: 5px;
+        z-index: 20;
+    }
+
+    .emoji1{
+        max-width: 100%;
+        color: #7FF820;
+        font-family: emoji;
+        font-size: 2rem;
+        line-height:4em;
+    }
+
+
+}
+
+
